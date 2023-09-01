@@ -1,0 +1,231 @@
+<img src="/assets/desktop/theme-lite/images/Reifen.gif?v=1" alt="Reifen Finden" border="0" class="searchimg" data-cmp-info="10">
+
+
+
+
+element.style {
+}
+.pure-form select {
+    margin-left: 0;
+}
+.pure-form input[type=text], .pure-form input[type=password], .pure-form select, .pure-form textarea {
+    border: 1px solid #3c7fb5;
+    -o-border-image: none;
+    border-image: none;
+}
+.pure-form select {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.pure-form input:not([type]), .pure-form input[type=color], .pure-form input[type=date], .pure-form input[type=datetime-local], .pure-form input[type=datetime], .pure-form input[type=email], .pure-form input[type=month], .pure-form input[type=number], .pure-form input[type=password], .pure-form input[type=search], .pure-form input[type=tel], .pure-form input[type=text], .pure-form input[type=time], .pure-form input[type=url], .pure-form input[type=week], .pure-form select, .pure-form textarea {
+    padding: .5em .6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+select {
+    max-width: 100%;
+}
+button, select {
+    text-transform: none;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+button, html, input, select, textarea {
+    font-family: sans-serif;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before, input[type=search] {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+user agent stylesheet
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+user agent stylesheet
+select {
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    box-sizing: border-box;
+    align-items: center;
+    white-space-collapse: preserve;
+    text-wrap: nowrap;
+    -webkit-rtl-ordering: logical;
+    background-color: field;
+    cursor: default;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 0px;
+}
+.tabcontent {
+    color: #373737;
+    text-align: center;
+    min-height: 340px;
+}
+.tabcontent {
+    background: #fff;
+    color: #373737;
+    text-align: center;
+    min-height: 350px;
+}
+.tabmain {
+    margin: 0 auto;
+    min-width: 280px;
+    max-width: 500px;
+    padding: 0;
+    color: #fff;
+}
+.tabmain {
+    margin: 0 auto 20px;
+    min-width: 320px;
+    max-width: 500px;
+    padding: 0;
+    min-height: 400px;
+    background: #333;
+    color: #fff;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 13px;
+    margin-top: 0;
+    margin-left: 0;
+}
+#facettenfilter select, .resultsLeft, body {
+    font-family: "Open Sans",Verdana,Arial,Sans-Serif!important;
+}
+body {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.popover, .tooltip, body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+style attribute {
+    --sdk-launcher-bgk-color: #00539f;
+    --sdk-launcher-position: 0 20px 20px 0;
+    --sdk-web-launcher-bgk-color: #00539f;
+    --sdk-facebook-launcher-bgk-color: #0084ff;
+    --sdk-whatsapp-launcher-bgk-color: #3c3;
+    --sdk-signal-launcher-bgk-color: #0084ff;
+    --sdk-launcher-bottom: 20px;
+}
+:root {
+    --sdk-launcher-bgk-color: #088888;
+    --sdk-launcher-position: 0 20px 20px 0;
+    --sdk-launcher-bottom: 20px;
+    --sdk-web-launcher-bgk-color: burlywood;
+    --sdk-facebook-launcher-bgk-color: rgb(0, 132, 255);
+    --sdk-whatsapp-launcher-bgk-color: rgb(77, 194, 71);
+    --sdk-signal-launcher-bgk-color: rgb(0, 132, 255);
+}
+html {
+    font-size: 62.5%;
+}
+html {
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before, input[type=search] {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before, input[type=search] {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+﻿
+110
+Tracking Prevention blocked access to storage for <URL>.
+www.mytyres.co.uk/:3209 [Intervention] Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113
+VM72:1 GA4 Measurement ID: G-1FFL8YC9V6
+gtm.js?id=GTM-5X7GDZ7&l=dataLayer360:97 
+ Uncaught 
+Object
+gtm.js?id=GTM-5X7GDZ7&l=dataLayer360:97 
+ Uncaught 
+Object
+gtm.js?id=GTM-5X7GDZ7&l=dataLayer360:509 
+ Uncaught TypeError: Cannot read properties of null (reading '0')
+    at HTMLScriptElement.<anonymous> (gtm.js?id=GTM-5X7GDZ…ataLayer360:509:355)
+    at HTMLScriptElement.eventBridge (cmp_en.min.js:1:256089)
+gtm.js?id=GTM-5X7GDZ7&l=dataLayer360:97 
+ Uncaught 
+Object
+gtm.js?id=GTM-5X7GDZ7&l=dataLayer360:509 
+ Uncaught TypeError: Cannot read properties of null (reading '0')
+    at HTMLScriptElement.<anonymous> (gtm.js?id=GTM-5X7GDZ…ataLayer360:509:355)
+    at HTMLScriptElement.eventBridge (cmp_en.min.js:1:256089)

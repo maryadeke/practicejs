@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrolling Buttons</title>
+</head>
+<body>
+    <div id="section1">
+        <P>my name is mary and i love Me Lorem ipsum dolor sit amet.</P>
+        <p>this is my first page</p>
+        <!-- Content of section 1 goes here -->
+    </div>
+
+    <div id="section2">
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex minima illum.</P>
+        <p>my page 2 is this one</p>
+        <!-- Content of section 2 goes here -->
+    </div>
+
+    <!-- Add more sections as needed -->
+
+    <button id="btnSection1">Scroll to Section 1</button>
+    <button id="btnSection2">Scroll to Section 2</button>
+
+    <!-- Add more buttons as needed -->
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    // Get references to the buttons and sections
+    const btnSection1 = document.getElementById("btnSection1");
+    const btnSection2 = document.getElementById("btnSection2");
+    const section1 = document.getElementById("section1");
+    const section2 = document.getElementById("section2");
+
+    // Add click event listeners to the buttons
+    btnSection1.addEventListener("click", function() {
+        section1.scrollIntoView({ behavior: "smooth" });
+    });
+
+    btnSection2.addEventListener("click", function() {
+        section2.scrollIntoView({ behavior: "smooth" });
+    });
+});
+
+    </script>
+</body>
+</html>
